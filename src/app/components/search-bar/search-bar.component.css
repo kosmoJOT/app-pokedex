@@ -1,0 +1,9 @@
+.inputBuscarPokemon {
+  width: 100%;
+}
+
+.botonBuscar {
+  left: 2px;
+  background-color: orange;
+  align-self: flex-end;
+}

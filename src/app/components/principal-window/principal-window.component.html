@@ -1,3 +1,15 @@
-<app-search-bar></app-search-bar>
-<p>principal-window works!</p>
-<app-footer></app-footer>
+<mat-drawer-container class="contenedor" autosize>
+  <mat-drawer #drawer class="sidenav" mode="over">
+    <app-search-bar></app-search-bar>
+  </mat-drawer>
+  <div class="contenido">
+    <section class="cabeceraContenido">
+      <h1>POKÉDEX</h1>
+    </section>
+    <button type="button" mat-button (click)="drawer.toggle()">
+      <mat-icon>filter_list</mat-icon> Opciones avanzadas
+    </button>
+  </div>
+
+
+</mat-drawer-container>
